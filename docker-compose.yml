@@ -1,0 +1,88 @@
+version: "3.5"
+
+services:
+  user:
+    build: ./user-service
+    command: gulp
+    depends_on:
+      - postgres
+    volumes:
+     - ./user-service:/app
+    ports:
+      - "3001:3001"
+    networks:
+      - default
+
+  mqtt-logger:
+    build: ./mqtt-logger
+    command: npm start
+    depends_on:
+      - mosquitto
+    volumes:
+     - ./mqtt-logger:/app
+    ports:
+      - "3002:3002"
+
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: pi
+      POSTGRES_PASSWORD: 100200300
+      POSTGRES_DB: postgres
+      CONFIGS: "listen_addresses:'*'"
+    volumes:
+      - ./postres/data:/var/lib/postgresql/data
+    expose:
+      - "5432"
+    ports:
+      - "5432:5432"
+    networks:
+      - default
+
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb
+    ports:
+      - "8083:8083"
+      - "8086:8086"
+      - "8090:8090"
+    volumes:
+      # Data persistency
+      # sudo mkdir -p /srv/docker/influxdb/data
+      - ./influxdb/data:/var/lib/influxdb
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3003:3000"
+    links:
+      - influxdb
+    volumes:
+      # Data persistency
+      # sudo mkdir -p /srv/docker/grafana/data; chown 472:472 /srv/docker/grafana/data
+      - ./grafana/data:/var/lib/grafana
+
+  mosquitto:
+    image: eclipse-mosquitto
+    hostname: mosquitto
+    container_name: mosquitto
+    restart: always
+    user: 1883:1883
+    expose:
+      - "1883"
+      - "9001"
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/logs:/mosquitto/logs
+    networks:
+      - default
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.18.1.0/24
