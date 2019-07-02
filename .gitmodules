@@ -1,0 +1,9 @@
+[submodule "mock-service"]
+	path = mock-service
+	url = https://github.com/CamiloAvelar/mock-service
+[submodule "mqtt-logger"]
+	path = mqtt-logger
+	url = https://github.com/CamiloAvelar/mqtt-logger
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/CamiloAvelar/user-service

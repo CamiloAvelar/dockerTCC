@@ -551,3 +551,4 @@
 1562105137: New connection from 172.18.1.1 on port 1883.
 1562105137: New client connected from 172.18.1.1 as mqttjs_d98c1d38 (p2, c1, k60, u'mqtt_user').
 1562105355: Socket error on client mqttjs_d98c1d38, disconnecting.
+1562106388: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
