@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-07-03T00:01:41.006104+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "CamiloAvelar",
+                    "id": "2b4a5919dca64a6d8df8e2a0fea28f52",
+                    "user_id": "d96a53e8c6ff4c3884ec2480eeefdbe6"
+                },
+                "context": {
+                    "id": "160cea7085814ff8973f0a98fb4f238a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.camiloavelar",
+                "last_changed": "2019-07-02T23:52:31.958039+00:00",
+                "last_updated": "2019-07-02T23:52:38.100981+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-07-02T23:54:15.492646+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Camilo Avelar",
+                    "id": "9afc168fb05f45f3a5c5bdbcf0ba18b1",
+                    "user_id": "f884b9e5542e41688893518f35a933d2"
+                },
+                "context": {
+                    "id": "c83f195d57a644c7887b6a13e0178b2e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.camilo_avelar",
+                "last_changed": "2019-07-02T23:52:31.958140+00:00",
+                "last_updated": "2019-07-02T23:52:38.101048+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

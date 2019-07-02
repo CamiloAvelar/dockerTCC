@@ -1,0 +1,28 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ec42f98845134ca291b12abe5b309b66"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "cda51a05c9cc4b9ab7d27456f3c5a139",
+                "identifiers": [
+                    [
+                        "cast",
+                        "9f85f6a07f78106b7ac90b7a8060a939"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Katapulta",
+                "name_by_user": null,
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

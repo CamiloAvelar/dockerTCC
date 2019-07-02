@@ -31,13 +31,28 @@ services:
       POSTGRES_DB: postgres
       CONFIGS: "listen_addresses:'*'"
     volumes:
-      - ./postres/data:/var/lib/postgresql/data
+      - ./postgres/data:/var/lib/postgresql/data
     expose:
       - "5432"
     ports:
       - "5432:5432"
     networks:
       - default
+
+  homeassistant:
+    container_name: homeassistant
+    restart: unless-stopped
+    image: homeassistant/home-assistant
+    volumes:
+      - ./homeassistant:/config
+    depends_on:
+      - mosquitto
+    network_mode: host
+    privileged: true
+    expose:
+      - "8123"
+    ports:
+      - "8123:8123"
 
   influxdb:
     image: influxdb:latest
@@ -77,6 +92,7 @@ services:
       - "9001:9001"
     volumes:
       - ./mosquitto/config:/mosquitto/config
+      # sudo chown 1883:1884 /mosquitto/logs
       - ./mosquitto/logs:/mosquitto/logs
     networks:
       - default

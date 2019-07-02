@@ -552,3 +552,135 @@
 1562105137: New client connected from 172.18.1.1 as mqttjs_d98c1d38 (p2, c1, k60, u'mqtt_user').
 1562105355: Socket error on client mqttjs_d98c1d38, disconnecting.
 1562106388: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562106388: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562106388: Error: No such file or directory.
+1562108189: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562108189: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562108189: Error: No such file or directory.
+1562109409: New connection from 172.18.1.1 on port 1883.
+1562109409: New client connected from 172.18.1.1 as mqttjs_fbd234b0 (p2, c1, k60, u'mqtt_user').
+1562109628: Socket error on client mqttjs_fbd234b0, disconnecting.
+1562109990: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562109990: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562109990: Error: No such file or directory.
+1562110016: Socket error on client mqttjs_7da51e77, disconnecting.
+1562110017: mosquitto version 1.6.3 terminating
+1562110017: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562110017: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562110017: Error: No such file or directory.
+1562110039: mosquitto version 1.6.3 starting
+1562110039: Config loaded from /mosquitto/config/mosquitto.conf.
+1562110039: Opening ipv4 listen socket on port 1883.
+1562110039: Opening ipv6 listen socket on port 1883.
+1562110041: New connection from 172.18.1.5 on port 1883.
+1562110041: New client connected from 172.18.1.5 as mqttjs_ffbfcb53 (p2, c1, k60, u'mqtt_user').
+1562110041: Socket error on client mqttjs_ffbfcb53, disconnecting.
+1562110041: mosquitto version 1.6.3 terminating
+1562110041: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562110041: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562110041: Error: No such file or directory.
+1562110080: mosquitto version 1.6.3 starting
+1562110080: Config loaded from /mosquitto/config/mosquitto.conf.
+1562110080: Opening ipv4 listen socket on port 1883.
+1562110080: Opening ipv6 listen socket on port 1883.
+1562110082: New connection from 172.18.1.5 on port 1883.
+1562110082: New client connected from 172.18.1.5 as mqttjs_80a997ce (p2, c1, k60, u'mqtt_user').
+1562110095: New connection from 172.18.1.1 on port 1883.
+1562110095: New client connected from 172.18.1.1 as mqttjs_7ac38396 (p2, c1, k60, u'mqtt_user').
+1562110228: Socket error on client mqttjs_7ac38396, disconnecting.
+1562110341: Socket error on client mqttjs_80a997ce, disconnecting.
+1562110341: mosquitto version 1.6.3 terminating
+1562110341: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562110341: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562110341: Error: No such file or directory.
+1562110425: mosquitto version 1.6.3 starting
+1562110425: Config loaded from /mosquitto/config/mosquitto.conf.
+1562110425: Opening ipv4 listen socket on port 1883.
+1562110425: Opening ipv6 listen socket on port 1883.
+1562110430: New connection from 172.18.1.6 on port 1883.
+1562110430: New client connected from 172.18.1.6 as mqttjs_bfa11ab4 (p2, c1, k60, u'mqtt_user').
+1562110460: Socket error on client mqttjs_bfa11ab4, disconnecting.
+1562110461: mosquitto version 1.6.3 terminating
+1562110461: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562110461: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562110461: Error: No such file or directory.
+1562110752: mosquitto version 1.6.3 starting
+1562110752: Config loaded from /mosquitto/config/mosquitto.conf.
+1562110752: Opening ipv4 listen socket on port 1883.
+1562110752: Opening ipv6 listen socket on port 1883.
+1562110753: New connection from 172.18.1.5 on port 1883.
+1562110753: New client connected from 172.18.1.5 as mqttjs_93b2af99 (p2, c1, k60, u'mqtt_user').
+1562110754: Socket error on client mqttjs_93b2af99, disconnecting.
+1562110764: mosquitto version 1.6.3 terminating
+1562110764: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562110764: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562110764: Error: No such file or directory.
+1562110779: mosquitto version 1.6.3 starting
+1562110779: Config loaded from /mosquitto/config/mosquitto.conf.
+1562110779: Opening ipv4 listen socket on port 1883.
+1562110779: Opening ipv6 listen socket on port 1883.
+1562110780: New connection from 172.18.1.6 on port 1883.
+1562110780: New client connected from 172.18.1.6 as mqttjs_db5f6300 (p2, c1, k60, u'mqtt_user').
+1562110781: New connection from 172.18.1.1 on port 1883.
+1562110781: New client connected from 172.18.1.1 as auto-DA1D3DA9-176F-F952-8E8B-422CE4C8B255 (p2, c1, k60, u'mqtt_user').
+1562110923: New connection from 172.18.1.1 on port 1883.
+1562110923: New client connected from 172.18.1.1 as mosqpub|3117-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562110923: Client mosqpub|3117-camilo-X51 disconnected.
+1562110945: New connection from 172.18.1.1 on port 1883.
+1562110945: New client connected from 172.18.1.1 as mosqpub|3205-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562110945: Client mosqpub|3205-camilo-X51 disconnected.
+1562110966: New connection from 172.18.1.1 on port 1883.
+1562110966: New client connected from 172.18.1.1 as mqttjs_1bc99585 (p2, c1, k60, u'mqtt_user').
+1562111008: New connection from 172.18.1.1 on port 1883.
+1562111008: New client connected from 172.18.1.1 as mosqpub|3442-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111008: Client mosqpub|3442-camilo-X51 disconnected.
+1562111062: New connection from 172.18.1.1 on port 1883.
+1562111062: New client connected from 172.18.1.1 as mosqpub|3612-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111062: Client mosqpub|3612-camilo-X51 disconnected.
+1562111262: New connection from 172.18.1.1 on port 1883.
+1562111262: New client connected from 172.18.1.1 as mosqpub|4016-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111262: Client mosqpub|4016-camilo-X51 disconnected.
+1562111370: Client auto-DA1D3DA9-176F-F952-8E8B-422CE4C8B255 disconnected.
+1562111370: Socket error on client mqttjs_db5f6300, disconnecting.
+1562111374: mosquitto version 1.6.3 terminating
+1562111374: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562111374: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562111374: Error: No such file or directory.
+1562111389: mosquitto version 1.6.3 starting
+1562111389: Config loaded from /mosquitto/config/mosquitto.conf.
+1562111389: Opening ipv4 listen socket on port 1883.
+1562111389: Opening ipv6 listen socket on port 1883.
+1562111389: New connection from 172.18.1.1 on port 1883.
+1562111389: New client connected from 172.18.1.1 as mqttjs_1bc99585 (p2, c1, k60, u'mqtt_user').
+1562111390: New connection from 172.18.1.6 on port 1883.
+1562111390: New client connected from 172.18.1.6 as mqttjs_4f6625e6 (p2, c1, k60, u'mqtt_user').
+1562111434: New connection from 172.18.1.1 on port 1883.
+1562111434: New client connected from 172.18.1.1 as mosqpub|6086-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111434: Client mosqpub|6086-camilo-X51 disconnected.
+1562111443: New connection from 172.18.1.1 on port 1883.
+1562111443: New client connected from 172.18.1.1 as mosqpub|6134-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111443: Client mosqpub|6134-camilo-X51 disconnected.
+1562111516: Socket error on client mqttjs_4f6625e6, disconnecting.
+1562111521: mosquitto version 1.6.3 terminating
+1562111521: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562111521: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562111521: Error: No such file or directory.
+1562111549: mosquitto version 1.6.3 starting
+1562111549: Config loaded from /mosquitto/config/mosquitto.conf.
+1562111549: Opening ipv4 listen socket on port 1883.
+1562111549: Opening ipv6 listen socket on port 1883.
+1562111549: New connection from 172.18.1.1 on port 1883.
+1562111549: New client connected from 172.18.1.1 as mqttjs_1bc99585 (p2, c1, k60, u'mqtt_user').
+1562111550: New connection from 172.18.1.6 on port 1883.
+1562111550: New client connected from 172.18.1.6 as mqttjs_e4c5da19 (p2, c1, k60, u'mqtt_user').
+1562111551: New connection from 172.18.1.1 on port 1883.
+1562111551: New client connected from 172.18.1.1 as auto-DB5C3D9A-AA13-AF69-AD99-739860BE4DD8 (p2, c1, k60, u'mqtt_user').
+1562111691: New connection from 172.18.1.1 on port 1883.
+1562111691: New client connected from 172.18.1.1 as mosqpub|8314-camilo-X51 (p1, c1, k60, u'mqtt_user').
+1562111691: Client mosqpub|8314-camilo-X51 disconnected.
+1562112101: Client auto-DB5C3D9A-AA13-AF69-AD99-739860BE4DD8 disconnected.
+1562112101: Socket error on client mqttjs_e4c5da19, disconnecting.
+1562112106: mosquitto version 1.6.3 terminating
+1562112106: Saving in-memory database to /var/lib/mosquitto/mosquitto.db.
+1562112106: Error saving in-memory database, unable to open /var/lib/mosquitto/mosquitto.db.new for writing.
+1562112106: Error: No such file or directory.
