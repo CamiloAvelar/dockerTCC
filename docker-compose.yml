@@ -40,6 +40,14 @@ services:
     networks:
       - default
 
+  migration:
+    image: src_user:latest
+    command: ["./wait-for-it/wait-for-it.sh", "postgres:5432", "--", "npm", "run", "migrate"]
+    links:
+      - postgres
+    depends_on:
+      - postgres
+
   homeassistant:
     container_name: homeassistant
     restart: unless-stopped
