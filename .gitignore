@@ -1,3 +1,5 @@
 grafana
 influxdb
 postgres
+homeassistant/home-assistant_v2.db
+homeassistant/.storage/
